@@ -1,0 +1,18 @@
+body{
+    text-align: center;
+    margin-top: 20%;
+    background-color: gray;
+    color: white;
+}
+h2 {
+    font-weight: 500 !important;
+    display: inline-block;
+    width: 80px;
+}
+h3{
+    display: inline-block;
+    width: 80px;
+}
+.container{
+    /* margin-top: 30%; */
+}
