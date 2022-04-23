@@ -22,6 +22,7 @@ startClock = () => {
 var set = 0;
 
 start = () => {
+
     set = setInterval(startClock, 10);
     distbtn = document.getElementById("start");
 
