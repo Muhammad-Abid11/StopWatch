@@ -23,6 +23,7 @@ var set = 0;
 
 start = () => {
 
+    document.getElementById("start").disabled = true
     set = setInterval(startClock, 10);
     distbtn = document.getElementById("start");
 
@@ -37,6 +38,8 @@ resetClock = () => {
 }
 
 pauseClock = () => {
+    document.getElementById("start").disabled = false
+
     clearInterval(set);
 }
 
